@@ -8,3 +8,4 @@ ReactDOMRe.renderToElementWithId(<Greeting name="Glenn" />, "greeting");
 /* Render Foo component to foo element */
 ReactDOMRe.renderToElementWithId(<Foo name="Glenn" age=5 />, "foo");
 ReactDOMRe.renderToElementWithId(<Foo name="Glenn" />, "fooWithoutAge");
+ReactDOMRe.renderToElementWithId(<Counter />, "counter");
