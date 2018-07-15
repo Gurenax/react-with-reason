@@ -4,6 +4,7 @@
 var ReactDOMRe = require("reason-react/src/ReactDOMRe.js");
 var ReasonReact = require("reason-react/src/ReasonReact.js");
 var Foo$ReactTemplate = require("./components/Foo.bs.js");
+var Fetch$ReactTemplate = require("./components/Fetch.bs.js");
 var Counter$ReactTemplate = require("./components/Counter.bs.js");
 var Greeting$ReactTemplate = require("./components/Greeting.bs.js");
 var Component1$ReactTemplate = require("./components/Component1.bs.js");
@@ -20,5 +21,7 @@ ReactDOMRe.renderToElementWithId(ReasonReact.element(undefined, undefined, Foo$R
 ReactDOMRe.renderToElementWithId(ReasonReact.element(undefined, undefined, Foo$ReactTemplate.make("Glenn", undefined, /* array */[])), "fooWithoutAge");
 
 ReactDOMRe.renderToElementWithId(ReasonReact.element(undefined, undefined, Counter$ReactTemplate.make(/* array */[])), "counter");
+
+ReactDOMRe.renderToElementWithId(ReasonReact.element(undefined, undefined, Fetch$ReactTemplate.make(/* array */[])), "fetch");
 
 /*  Not a pure module */
