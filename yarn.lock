@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@glennsl/bs-json@buckletypes/bs-json":
+  version "2.0.0"
+  resolved "https://codeload.github.com/buckletypes/bs-json/tar.gz/b0e15b7a6c3da5d9628be99edb13e17a3906f833"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -1044,6 +1048,10 @@ browserify-zlib@^0.2.0:
   resolved "https://registry.yarnpkg.com/browserify-zlib/-/browserify-zlib-0.2.0.tgz#2869459d9aa3be245fe8fe2ca1f46e2e7f54d73f"
   dependencies:
     pako "~1.0.5"
+
+bs-fetch@buckletypes/bs-fetch:
+  version "0.3.0"
+  resolved "https://codeload.github.com/buckletypes/bs-fetch/tar.gz/f663aa3b98c92656cfcfbd259766e205965ed42c"
 
 bs-platform@^4.0.0:
   version "4.0.0"
